@@ -16,9 +16,6 @@ body {
 
 }
 
-
-
-
 @font-face {
     font-family: 'gtfr';
     src: url('GT-Flexa-Regular-Trial.woff2') format('woff2');
@@ -27,9 +24,6 @@ body {
 
 }
 
-
-
-
 @font-face {
     font-family: 'gtfxebl';
     src: url('GT-Flexa-X-Compressed-Bold-Trial.woff2') format('woff2');
@@ -37,9 +31,6 @@ body {
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'gtfxebo';
@@ -53,6 +44,7 @@ body {
 .container {
   border: 7px solid yellow;
 }
+
 .title {
   display: flex;
   align-items: center;
@@ -91,4 +83,66 @@ body {
   -webkit-text-stroke: 2px #FFF500;
   color: #00064D;
 }
+
+.main__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.container__left {
+  padding: 5em;
+}
+
+.container__left img {
+  position: absolute;
+  margin-left: -32em;
+}
+
+.container__right .body p {
+  font-size: 18px;
+  color: #FFF500;
+  font-family: GT Flexa Trial;
+}
+
+.big__dot {
+  height: 514px;
+  width: 514px;
+  background-color: #FFF500;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.small__dot {
+  height: 44px;
+  width: 44px;
+  background-color: #FFF500;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 25em;
+  margin-top: 28em;
+  margin-left: -5em;
+}
+
+.body {
+  padding: 3em;
+}
+
+.body p {
+  margin-bottom: 1em;
+}
+
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.email img {
+  width: 2em;
+  fill: #FFF500;
+  margin-bottom: 1em;
+}
+
 
